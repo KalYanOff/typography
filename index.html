@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo">Company</a>
+      <nav class="header__nav">
+        <button class="btn-reset header__search">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11.7666" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.0183 18.4851L21.5423 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="list-reset header__list">
+          <li class="header__item"><a class="header__link">Portfolio</a></li>
+          <li class="header__item"><a class="header__link">Team</a></li>
+          <li class="header__item"><a class="header__link">About</a></li>
+          <li class="header__item"><a class="header__link">Blog</a></li>
+          <li class="header__item"><a class="header__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">We&nbsp;produce the best products</h1>
+        <p class="hero__subtitle">Mattis quam, lectus et&nbsp;justo amet, tortor, lectus dapibus est. Habitasse efficitur sodales vel est.</p>
+        <button class="btn-reset btn btn--light">Button</button>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container grid">
+        <ul class="list-reset about__list">
+          <li class="about__item">
+            <div class="about__value">20,000</div>
+            <div class="about__value-desc">completed projects</div>
+          </li>
+          <li class="about__item">
+            <div class="about__value">10,000</div>
+            <div class="about__value-desc">prototypes</div>
+          </li>
+          <li class="about__item">
+            <div class="about__value">347</div>
+            <div class="about__value-desc">completed projects</div>
+          </li>
+        </ul>
+        <div class="about__text">
+          <h2 class="about__title">Amet, mattis dapibus malesuada arcu dapibus nec efficitur et&nbsp;dictum. In&nbsp;sit odio. Tempus leo, dictum.</h2>
+          <p class="about__desc">Amet, mattis dapibus malesuada arcu dapibus nec efficitur et&nbsp;dictum. In&nbsp;sit odio. Tempus leo, dictum. Sit mattis mattis lorem cursus velit sit sed et&nbsp;vitae quam, sed nulla dapibus venenatis odio.</p>
+          <p class="about__desc">Venenatis sapien aenean adipiscing lacinia nec lacinia lacinia et&nbsp;quam, ultricies. Dictum. Ipsum sodales sit id&nbsp;nec sed sodales mattis mollis quis, pellentesque habitasse&nbsp;ex.</p>
+        </div>
+      </div>
+    </section>
+    <section class="videoplayer">
+      <div class="container videoplayer__container">
+        <video class="videoplayer__video" src="img/video.mp4" poster="img/video-poster.jpg" preload="metadata" muted playsinline></video>
+        <button class="btn-reset videoplayer__btn">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="white"/>
+            <path d="M63 50L44.25 62.9904L44.25 37.0096L63 50Z" fill="#1D1D1F"/>
+          </svg> 
+        </button>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="container">
+        <div class="offer__column grid">
+          <ul class="list-reset offer__list">
+            <li class="offer__item"><h3 class="offer__title">Et odio</h3></li>
+            <li class="offer__item"><p class="offer__desc">Mauris eget nec nulla dolor&nbsp;ex. Sodales luctus pellentesque cras ornare lorem luctus lectus sed consectetur quam, est. Libero, odi</p></li>
+            <li class="offer__item"><button class="btn-reset btn btn--dark">Button</button></li>
+          </ul>
+          <img class="offer__img" src="img/offer-1.jpg" alt="img-1">
+        </div>
+        <div class="offer__column offer__column--reverse grid">
+          <ul class="list-reset offer__list">
+            <li class="offer__item"><h3 class="offer__title">Integer dapibus dictum</h3></li>
+            <li class="offer__item"><p class="offer__desc">it&nbsp;pulvinar tempus amet dolor dui vulputate tortor, luctus lorem in&nbsp;nunc eleifend ipsum justo et&nbsp;venenatis dictumst.</p></li>
+            <li class="offer__item"><button class="btn-reset btn btn--dark">Button</button></li>
+          </ul>
+          <img class="offer__img" src="img/offer-2.jpg" alt="img-1">
+        </div>
+      </div>
+    </section>
+    <section class="quoute">
+      <div class="container">
+        <h3 class="quoute__title">Quoute</h3>
+        <blockquote class="quoute__text">Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare morbi accumsan leo, est. Consectetur ultricies. Sapien est. Dictumst. Sapien habitasse interdum in&nbsp;amet, lectus molestie vel&nbsp;ut. Malesuada efficitur mattis id&nbsp;mattis aenean interdum lectus quam, dapibus nec augue vulputate leo, ornare elit.</blockquote>
+        <cite class="quoute__authors">Alex Lee&nbsp;/ <span>Co-founder &amp;&nbsp;SEO</span></cite>
+      </div>
+    </section>
+    <section class="slider">
+      <img class="slider__img" src="img/slider-img.jpg" alt="slider">
+    </section>
+    <section class="services">
+      <div class="container">
+        <ul class="list-reset services__list ">
+          <li class="services__item grid">
+            <h2 class="services__title">Branding</h2>
+            <p class="services__desc">Quam, tortor, interdum consectetur eleifend integer&nbsp;et. Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare morbi accumsan leo, est. Consectetur ultricies.</p>
+          </li>
+          <li class="services__item grid">
+            <h2 class="services__title">Web-apps</h2>
+            <p class="services__desc">Malesuada efficitur mattis id&nbsp;mattis aenean interdum lectus quam, dapibus nec augue vulputate leo, ornare elit. Pulvinar sed quam, arcu pulvinar nisi ipsum quis, sodales molestie&nbsp;ex.</p>
+          </li>
+          <li class="services__item grid">
+            <h2 class="services__title">Design</h2>
+            <p class="services__desc">Cras amet, sed sapien orci, leo, sit ornare risus tortor, ex. Mauris non orci, sed elit. Cursus ex. Aenean ipsum dolor augue tempus et&nbsp;molestie ipsum adipiscing leo, sit interdum venenatis odio.</p>
+          </li>
+          <li class="services__item grid">
+            <h2 class="services__title">Strategy</h2>
+            <p class="services__desc">Quam, tortor, interdum consectetur eleifend integer&nbsp;et. Accumsan vulputate efficitur in&nbsp;amet, vestibulum ornare morbi accumsan leo, est. Consectetur ultricies.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container grid">
+      <div class="footer__column">
+        <a class="logo">Company</a>
+        <address class="footer__address">Dorivit BV, Monitorweg 1, Almere 1322BJ, Netherlands</address>
+      </div>
+      <div class="footer__column">
+        <h2 class="footer__title">Id&nbsp;sodales interdum dui mollis non in&nbsp;odio</h2>
+        <form action="" class="footer__form">
+          <input type="email" class="footer__mail" placeholder="E-mail">
+          <button class="btn-reset footer__btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5L15 12L8 19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
