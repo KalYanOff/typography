@@ -29,4 +29,119 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .header__link {
+    padding: auto;
+  }
+
+  .hero {
+    padding-top: 400px;
+  }
+  .hero__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero__title {
+    font-size: 70px;
+    line-height: 84px;
+    text-align: center;
+  }
+
+  :root {
+    --offset: 30px;
+  }
+
+  .grid {
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+  }
+
+  .about__title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .about__desc {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .quoute__text {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .footer__title {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 575.99px) {
+  .about__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about__text {
+    text-align: center;
+  }
+
+  .offer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer__title {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .offer__desc {
+    font-size: 10px;
+    line-height: 24px;
+  }
+  .offer__column--reverse .offer__list {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .offer__column--reverse .offer__img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .grid {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
 }
